@@ -1,11 +1,11 @@
 function removeDuplicates(nums: number[]): number {
     if (nums.length === 0) return 0;
 
-    let k = 1;
+    let k = 1; // Pointer for the unique element position
     for (let i = 1; i < nums.length; i++) {
         if (nums[i] !== nums[i - 1]) {
-            nums[k] = nums[i];
-            k++; 
+            nums[k] = nums[i]; // Place the unique element at position k
+            k++; // Move the pointer forward
         }
     }
 
