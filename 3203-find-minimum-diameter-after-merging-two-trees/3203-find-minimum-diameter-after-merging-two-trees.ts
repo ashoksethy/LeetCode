@@ -49,7 +49,7 @@ function minimumDiameterAfterMerge(edges1: number[][], edges2: number[][]): numb
     return newDiameter;
 }
 
-// Example Usage
+// ExampleUsage
 const edges1 = [[0, 1], [1, 2], [1, 3]];
 const edges2 = [[0, 1], [1, 2]];
 console.log(minimumDiameterAfterMerge(edges1, edges2)); // Output depends on the input trees
